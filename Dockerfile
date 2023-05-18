@@ -9,8 +9,9 @@ RUN add-pkg --virtual apt-dependencies lsb-release gnupg2 shared-mime-info && \
     mkdir /data && \
     chown 1000:1000 /data
 
-COPY startapp.sh /startapp.sh
+COPY rootfs/ /
 RUN set-cont-env APP_NAME "insync"
 
+ENV HOME=/config
 VOLUME /config
 VOLUME /data
