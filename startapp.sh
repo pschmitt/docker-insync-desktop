@@ -16,4 +16,4 @@ export QT_QPA_PLATFORM=xcb
 
 stalonetray &
 
-exec insync start --no-daemon --debug 9
+exec insync start --no-daemon --debug 9 > /config/log/insync.log 2>&1
