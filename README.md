@@ -11,6 +11,8 @@ services:
   insync:
     image: pschmitt/insync-desktop
     container_name: insync
+    sysctls:
+      - fs.inotify.max_user_watches=1048576
     volumes:
       - ./config:/config
       - ./data:/data
