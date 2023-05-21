@@ -13,6 +13,5 @@ RUN add-pkg --virtual apt-dependencies lsb-release gnupg2 shared-mime-info && \
 COPY rootfs/ /
 RUN set-cont-env APP_NAME "insync" && set-cont-env APP_VERSION "$(insync version)"
 
-ENV HOME=/config
 VOLUME /config
 VOLUME /data
