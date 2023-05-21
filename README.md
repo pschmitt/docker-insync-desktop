@@ -1,4 +1,6 @@
-# isync-desktop
+# insync-desktop
+
+Docker version of the [Insync desktop client](https://www.insynchq.com/).
 
 ## Usage
 
