@@ -6,7 +6,7 @@ RUN add-pkg --virtual apt-dependencies lsb-release gnupg2 shared-mime-info && \
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C && \
     CODENAME="$(awk -F '=' '/VERSION_CODENAME/ { print $2 }' /etc/os-release)" && \
     echo "deb http://apt.insync.io/ubuntu $CODENAME non-free contrib" > /etc/apt/sources.list.d/insync.list && \
-    add-pkg insync insync-thunar && \
+    add-pkg insync && \
     mkdir /data && \
     chown 1000:1000 /data
 
