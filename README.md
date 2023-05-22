@@ -26,6 +26,8 @@ services:
 
 Then you can navigate to `http://localhost:5800` to login.
 
+Alternatively you can use `insync.sh` to execute [insync headless](https://help.insynchq.com/en/articles/4257855-insync-3-headless-getting-started) commands.
+
 ## Important notes
 
 ⚠️ insync may be hiding in the tray, just click on the app icon in the tray. 
