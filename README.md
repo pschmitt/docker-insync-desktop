@@ -28,6 +28,6 @@ Then you can navigate to `http://localhost:5800` to login.
 
 ## Important notes
 
-⚠️ insync  may be hiding on thee tray, just click on the app icon in the tray. 
+⚠️ insync may be hiding in the tray, just click on the app icon in the tray. 
 
 The tray sthould be in the top left corner of the screen.
